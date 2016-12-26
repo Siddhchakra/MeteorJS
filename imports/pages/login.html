@@ -1,0 +1,9 @@
+<template name="signup">
+  {{#if currentUser}}
+  <p>You are logged in..</p>
+  {{else}}
+  <p>Email: <input type="email" name="email"></p>
+  <p>Password: <input type="password" name="password"></p>
+  {{/if}}
+  <input class="sign-up" type="button" value="Register">
+</template>
